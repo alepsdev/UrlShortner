@@ -36,7 +36,7 @@ Este é um encurtador de URLs desenvolvido em **Java 17**, utilizando os serviç
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/url-shortener.git
+   git clone https://github.com/aleps.dev/url-shortener.git
    cd url-shortener
    
 2. Conta na AWS para poder upar o .jar gerado.
@@ -51,3 +51,16 @@ Este é um encurtador de URLs desenvolvido em **Java 17**, utilizando os serviç
     ```bash 
     URL encurtada: https://short.url/abc123
 
+## 📂 Estrutura do Projeto
+```
+    src/ 
+    ├── main/ 
+    │   ├── java/ 
+    │   │   ├── com.example.urlshortener/ 
+    │   │   │   ├── Main.java 
+    │   │   │   └── UrlData.java 
+    │   └── resources/  
+    ├── test/
+    │   ├── java/
+    pom.xml
+    README.md
